@@ -1,0 +1,41 @@
+==========================
+ PROJECT STRUCTURE NOTES
+==========================
+
+Name: Pranav Srinivas Venkatesh
+Matriculation Number: 1678255
+Master Thesis: Machine Learning for Dynamic Portfolio Optimization
+
+Data Folder:
+-------------
+- Contains all locally saved data files.
+- These data files are loaded from external sources and stored for further processing or modeling.
+
+Data Download and caching.ipynb:
+----------------------------------
+- This notebook contains the script for downloading data from an external API.
+- The downloaded data is then saved into the 'Data' folder for local use.
+
+Model_artifacts Folder:
+-------------------------
+- Stores all pre-trained machine learning models and scalers.
+- These artifacts are used for inference or further evaluation without retraining the models.
+
+Model_name_2022_final_code.ipynb:
+-----------------------------------
+- Contains the complete code for running forecasting tasks specifically for the year 2022.
+- Includes data loading, preprocessing, model loading/training, prediction, and result saving and portfolio optimization steps.
+
+Model_name_2024_final_code.ipynb:
+-----------------------------------
+- Contains the complete code for running forecasting tasks specifically for the year 2024.
+- Includes data loading, preprocessing, model loading/training, prediction, and result saving and portfolio optimization steps.
+
+Model-wise-scores.ipynb:
+--------------------------
+- Contains ETF-wise scores for all forecasting models across all time horizons.
+
+requirements.txt:
+------------------
+- Lists all required Python libraries along with their specific version numbers.
+- Ensures environment consistency across different systems for reproducibility.
