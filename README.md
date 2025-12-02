@@ -1,5 +1,4 @@
-==========================
- DYNAMIC PORTFOLIO OPTIMIZATION USING ML
+ Machine Learning for Dynamic Portfolio Management
 ==========================
 
 
@@ -28,7 +27,6 @@ practical, cost-aware, and risk-adjusted portfolio framework to replicate real-w
 ing these interlinked dimensions and model type, allocation flexibility, risk measurement, and rebalancing
 cost, this research offers a more comprehensive solution to data-driven portfolio optimization.
 
-==========================
  PROJECT STRUCTURE NOTES
 ==========================
 
